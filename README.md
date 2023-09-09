@@ -39,3 +39,9 @@ game.StarterGui:SetCore("SendNotification", {
 ```lua
 game.Players.LocalPlayer.Character.Humanoid.Health = 0
 ```
+
+
+## script e kick
+```lua
+game.Players.LocalPlayer:Kick("kick")
+```
