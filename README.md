@@ -17,4 +17,3 @@ setclipboard("-- msg")
 ## depois e um tempo vai executar algo
 ```lua
 wait(3) -- em segundos
-```
