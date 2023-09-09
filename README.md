@@ -6,7 +6,7 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/porrinha09/lib_script/main/api%20load.lua"))()
 ```
 
-## copiar msg para a área e transferência
+# copiar msg para a área e transferência
 ```lua
 setclipboard("--msg")```
 
