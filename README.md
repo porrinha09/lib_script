@@ -18,3 +18,18 @@ setclipboard("-- msg")
 ```lua
 wait(3) -- em segundos
 ```
+
+
+## criar notificações
+```lua
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+
+local mensagem = "oi"
+
+game.StarterGui:SetCore("SendNotification", {
+    Title = "notificação",
+    Text = mensagem,
+    Duration = 5 -- Duração em segundos
+})
+```
