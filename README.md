@@ -1,2 +1,5 @@
-# lib_script
-lib script
+# script library
+
+## lib api load
+```lua
+```
