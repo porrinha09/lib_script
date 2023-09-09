@@ -12,3 +12,4 @@ game.StarterGui:SetCore("SendNotification", {
     Text = mensagem,
     Duration = 5 -- Duração em segundos
 })
+
