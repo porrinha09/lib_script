@@ -33,3 +33,9 @@ game.StarterGui:SetCore("SendNotification", {
     Duration = 5 -- Duração em segundos
 })
 ```
+
+
+## script e resetar o personagem
+```lua
+game.Players.LocalPlayer.Character.Humanoid.Health = 0
+```
