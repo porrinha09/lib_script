@@ -45,3 +45,20 @@ game.Players.LocalPlayer.Character.Humanoid.Health = 0
 ```lua
 game.Players.LocalPlayer:Kick("kick")
 ```
+
+
+## aumentar velocidade
+```lua
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid.WalkSpeed = 50 -- speed
+```
+
+## chat local
+```lua
+local args = {
+    [1] = "oi",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+```
