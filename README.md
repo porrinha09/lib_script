@@ -62,3 +62,8 @@ local args = {
 
 game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
 ```
+
+## teleporte
+```lua
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-- posição)
+```
