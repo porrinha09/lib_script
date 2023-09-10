@@ -33,6 +33,8 @@ game.StarterGui:SetCore("SendNotification", {
     Duration = 5 -- Duração em segundos
 })
 ```
+
+
 ## criar notificações diferentes
 ```lua
 local Notif = Instance.new("ScreenGui") 
