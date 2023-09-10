@@ -1,8 +1,6 @@
 -- api load;
 -- by: wes
 
-wait(2)
-
 -- notificação
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
