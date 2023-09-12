@@ -6,6 +6,10 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/porrinha09/lib_script/main/api%20load.lua"))()
 ```
 
+## loadstring script web
+```lua
+loadstring(game:HttpGet("  ", true))()
+```
 
 # copiar msg para a área e transferência
 ```lua
