@@ -91,3 +91,9 @@ game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents")
 ```lua
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-- posição)
 ```
+
+
+## ocultar ui
+```lua
+local ui = script.Parent ui.Visible = false
+```
