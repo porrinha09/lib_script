@@ -97,3 +97,10 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-- posi√
 ```lua
 local ui = script.Parent ui.Visible = false
 ```
+
+
+## rejoin
+```lua
+wait(1)	
+game:GetService("TeleportService"):Teleport(game.PlaceId, game.Players.LocalPlayer)
+```
