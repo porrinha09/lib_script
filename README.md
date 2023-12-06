@@ -71,10 +71,22 @@ game.Players.LocalPlayer:Kick("kick")
 ```
 
 
-## aumentar velocidade
+## aumentar velocidade (padrão: 16)
 ```lua
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
 humanoid.WalkSpeed = 50 -- speed
+```
+
+## aumentar pulo (padrão: 50)
+```lua
+local player = game.Players.LocalPlayer
+local character = player.Character
+
+local jumpHeight = 50
+
+local humanoid = character:WaitForChild("Humanoid")
+
+humanoid.JumpPower = jumpHeight
 ```
 
 ## chat local
