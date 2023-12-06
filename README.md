@@ -89,6 +89,11 @@ local humanoid = character:WaitForChild("Humanoid")
 humanoid.JumpPower = jumpHeight
 ```
 
+## mudar pov (padrão: 70)
+```lua
+game.Workspace.CurrentCamera.FieldOfView = 70
+```
+
 ## chat local
 ```lua
 local args = {
