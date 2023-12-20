@@ -121,3 +121,25 @@ local ui = script.Parent ui.Visible = false
 wait(1)	
 game:GetService("TeleportService"):Teleport(game.PlaceId, game.Players.LocalPlayer)
 ```
+
+## ativar noclip
+```lua
+local player = game.Players.LocalPlayer
+local noclipEnabled = true
+
+game:GetService("RunService").Stepped:Connect(function()
+    if noclipEnabled then
+        player.Character:Move(Vector3.new(0, 0, 0))
+    end
+end)
+
+print("Noclip ativado")
+```
+
+## desativar noclip
+```lua
+local player = game.Players.LocalPlayer
+local noclipEnabled = false
+
+print("Noclip desativado")
+```
