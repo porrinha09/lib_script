@@ -143,3 +143,27 @@ local noclipEnabled = false
 
 print("Noclip desativado")
 ```
+
+## teleporte pelo nick da pessoa
+```lua
+local TeleportService = game:GetService("TeleportService")
+
+-- coloca o "EditText" pelo nome o Edit text
+local editText = script.Parent:WaitForChild("EditText")
+
+local function teleportPlayer()
+    local playerName = editText.Text
+
+    local player = game.Players:FindFirstChild(playerName)
+
+    -- Teleportar se o jogador existir
+    if player then
+        local destination = Vector3.new(0, 5, 0)
+        TeleportService:TeleportToPlaceInstance(game.PlaceId, player.UserId, destination)
+    else
+        print("Jogador não encontrado")
+    end
+end
+
+script.Parent.MouseButton1Click:Connect(teleportPlayer)
+```
