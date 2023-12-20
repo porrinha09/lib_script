@@ -167,3 +167,5 @@ end
 
 script.Parent.MouseButton1Click:Connect(teleportPlayer)
 ```
+
+
