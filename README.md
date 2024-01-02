@@ -8,7 +8,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/porrinha09/lib_script
 
 ## loadstring script web
 ```lua
-loadstring(game:HttpGet("--link", true))()
+loadstring(game:HttpGet(('-- link'),true))()
 ```
 
 # copiar msg para a área e transferência
